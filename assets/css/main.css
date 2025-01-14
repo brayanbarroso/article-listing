@@ -74,3 +74,34 @@ section {
 .author-info a {
   text-decoration: none;
 }
+
+/* mobile desing */
+@media (max-width: 640px) {
+  header {
+    /* border: 1px solid red; */
+    margin-inline: 16px;
+  }
+
+  section {
+    margin-inline: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    /* border: 1px solid blue; */
+    font-size: 1.9rem;
+  }
+
+  section {
+    margin-inline: 20px;
+  }
+
+  .section-article {
+    gap: 24px;
+  }
+
+  .info-description {
+    font-size: 1rem;
+  }
+}
