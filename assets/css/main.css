@@ -42,7 +42,7 @@ section {
   display: flex;
   align-items: center;
   gap: 48px;
-  margin-block-end: 48px;
+  margin-block-end: 44px;
 }
 
 .section-article img {
