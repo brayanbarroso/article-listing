@@ -14,7 +14,7 @@ body {
 header {
   /* border: 1px solid red; */
   margin: 0 auto;
-  margin-block-end: 24px;
+  margin-block-end: 32px;
   max-width: 760px;
 }
 
