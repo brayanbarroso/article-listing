@@ -22,10 +22,12 @@ header h1 {
   font-size: 2.25rem;
   font-weight: 600;
   margin-block: 40px;
+  max-width: 640px;
   text-align: center;
 }
 
 header div {
+  max-width: 640px;
   text-align: center;
 }
 
@@ -63,7 +65,7 @@ section {
 .author-info {
   color: rgb(55, 65, 81);
   font-size: 0.875rem;
-  margin-top: 16px;
+  margin-block: 16px;
   text-align: center;
 }
 
