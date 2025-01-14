@@ -5,14 +5,16 @@
 }
 
 body {
+  background-color: #f8fafc;
   font-family: "Poppins", serif;
 }
 
 /* Header */
 
 header {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
+  margin-block-end: 24px;
   max-width: 760px;
 }
 
@@ -28,13 +30,41 @@ header div {
 }
 
 /* Section */
+section {
+  /* border: 1px solid blue; */
+  margin: 0 auto;
+  max-width: 760px;
+}
 
+.section-article {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-block-end: 40px;
+}
 
+.section-article img {
+  border-radius: 12px;
+}
+
+.info-description {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.info-date {
+  color: #4d5562;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-block-start: 16px;
+}
+
+/* Footer */
 .author-info {
-  font-size: 14px;
-  text-align: center;
-  margin-top: 16px;
   color: rgb(55, 65, 81);
+  font-size: 0.875rem;
+  margin-top: 16px;
+  text-align: center;
 }
 
 .author-info a {
