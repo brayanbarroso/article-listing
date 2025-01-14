@@ -21,12 +21,14 @@ header {
 header h1 {
   font-size: 2.25rem;
   font-weight: 600;
+  margin: 0 auto;
   margin-block: 40px;
   max-width: 640px;
   text-align: center;
 }
 
 header div {
+  margin: 0 auto;
   max-width: 640px;
   text-align: center;
 }
